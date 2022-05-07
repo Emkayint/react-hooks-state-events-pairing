@@ -7,6 +7,30 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.App {
-  text-align: center;
+/* .App { */
+  /* text-align: center; */
+/* } */
+
+span{
+  margin-right: 10px;
+}
+
+.btn{
+  float: right;
+  /* display: inline-block; */
+  padding: 5px;
+  background-color: #f2f2f2;
+
+}
+
+.info{
+  padding-left: 20px;
+  display: block;
+}
+
+button{
+  padding: 7px;
+  background-color: teal;
+  margin-left: 30px;
+  border: none;
 }
