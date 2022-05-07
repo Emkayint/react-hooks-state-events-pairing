@@ -1,7 +1,7 @@
 import video from "../data/video.js";
 import SongInfo from "./SongInfo.js";
 function App() {
-  console.log("Here's your data:", video);
+  console.log("Here's your data:", video.comments);
 
   return (
     <div className="App">

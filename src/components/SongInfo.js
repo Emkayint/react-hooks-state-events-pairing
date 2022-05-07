@@ -1,5 +1,13 @@
+import Comments from "./Comments";
 
 function SongInfo({title, views, createdAt, upvotes, downvotes, comments}){
+  const comment = comments.map((com) => (
+    <Comments 
+      user = {com.user}
+      id = {com.id}
+      commentTo = {com.comment}
+    />
+  ))
   return (
     <>
       <h2>{title}</h2>
@@ -10,6 +18,9 @@ function SongInfo({title, views, createdAt, upvotes, downvotes, comments}){
       </div>
       <hr />
       <button>Hide Comments</button>
+      <>
+        {comment}
+      </>
     </>
   )
 }
