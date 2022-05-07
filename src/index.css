@@ -7,9 +7,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* .App { */
-  /* text-align: center; */
-/* } */
+
 
 span{
   margin-right: 10px;
@@ -17,14 +15,18 @@ span{
 
 .btn{
   float: right;
-  /* display: inline-block; */
   padding: 5px;
   background-color: #f2f2f2;
+  cursor: copy;
 
 }
-
+.btn:hover{
+  background-color: black;
+  padding: 10px;
+  color: wheat;
+}
 .info{
-  padding-left: 20px;
+  padding: 20px;
   display: block;
 }
 
@@ -34,6 +36,11 @@ button{
   background-color: teal;
   margin: 0 auto;
   border: none;
+}
+button:hover{
+  cursor: copy;
+  background-color: black;
+  color: whitesmoke;
 }
 
 .comment{
